@@ -1,0 +1,142 @@
+html {
+    background: #887766;
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    width: 800px;
+    height: 100%;
+    /*font: 13px/22px Helvetica, Arial, sans-serif; */
+    font: 13px/22px Simonetta, Helvetica, Arial, sans-serif;
+    background: #eeeeee;
+    border: 10px solid #223311;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+
+div.left {
+    display: inline-block;
+    width: 50%;
+    margin: 0px 0px;
+}
+
+div.right {
+    display: inline-block;
+    width: 50%;
+    margin: 0px 0px;
+}
+
+/* menu */
+
+nav#menu {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav#menu a {
+    display: inline;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: #9999aa;
+    font-size: large;
+}
+
+nav#menu a:hover {
+    color: #555533;
+}
+
+/* bcard */
+
+div#bcard {
+    margin: 0px auto;
+    /*width: 600px; */
+    margin-bottom: 50px;
+}
+
+div#bcard img {
+    border: 5px solid #bb9966;
+    position: relative;
+    float: right;
+    clear: right;
+    margin-right: 10px;
+}
+
+
+div#bcard div#info {
+    vertical-align: 50%;
+}
+
+div#bcard div#info * {
+    margin-left: 10px;
+}
+
+div#bcard div h1 {
+    color: #222211;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+div#bcard div h2 {
+    color: #222211;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+div#bcard div h3 {
+    color: #222211;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+div#bcard div h4 {
+    color: #222211;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+
+/* personas */
+
+nav#personas {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 0px;
+    background: #ddddee;
+}
+
+nav#personas a {
+    display: inline;
+    padding: 10px 10px;
+}
+
+nav#personas a img{
+    border: 1px solid #886633;
+    background: #886633;
+    border-radius: 6px;
+}
+
+/* feed */
+div#feed {
+}
+
+div#feed div.stream {
+}
+
+div#feed div#work {
+}
+
+div#feed div#fun {
+}
+
+/* footer */
+footer {
+    text-align: center;
+}
+
+footer p {
+    margin: 0px 0px 0px 0px;
+}
