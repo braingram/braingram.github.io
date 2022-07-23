@@ -38,12 +38,12 @@ nav#menu a {
     display: inline;
     margin: 0px 10px;
     text-decoration: none;
-    color: #9999aa;
+    color: #555533;
     font-size: large;
 }
 
 nav#menu a:hover {
-    color: #555533;
+    color: #222211;
 }
 
 /* bcard */
