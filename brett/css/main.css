@@ -71,6 +71,10 @@ div#bcard div#info * {
     margin-left: 10px;
 }
 
+div#bcard div#info a {
+    margin-left: 0px;
+}
+
 div#bcard div h1 {
     color: #222211;
     margin-bottom: 8px;
